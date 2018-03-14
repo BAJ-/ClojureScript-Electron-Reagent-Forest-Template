@@ -1,0 +1,13 @@
+/node_modules
+
+package-lock.json
+
+/target
+
+*-init.clj
+
+figwheel_server.log
+
+/resources/main.js
+/resources/public/js/electron-dev
+/resources/public/js/ui-out

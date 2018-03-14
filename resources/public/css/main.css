@@ -1,0 +1,35 @@
+/* Some styles would be nice */
+html, body {
+  font: caption;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+}
+
+#app {
+  flex: 1;
+  display: flex;
+}
+
+@-webkit-keyframes forestblur {
+  0% {
+    text-shadow: 0 0 2px darkgreen;
+    color: transparent;
+  }
+  25%, 50% {
+    text-shadow: none;
+    color: forestgreen;
+  }
+  100% {
+    text-shadow: 0 0 5px darkgreen;
+    color: transparent;
+  }
+}
+
+#electro-forest {
+  animation: forestblur 2s infinite alternate;
+}

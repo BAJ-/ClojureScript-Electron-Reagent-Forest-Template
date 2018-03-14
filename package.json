@@ -1,0 +1,14 @@
+{
+  "name": "Electro-forest",
+  "version": "0.1.0",
+  "main": "resources/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . ElectroForest --platform=darwin --arch=x64 --electron-version=1.8.2",
+    "build-all": "electron-packer . ElectroForest --all --electron-version=1.8.2"
+  },
+  "devDependencies": {
+    "electron": "^1.8.2",
+    "electron-packager": "^11.1.0"
+  }
+}
