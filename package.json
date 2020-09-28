@@ -7,8 +7,9 @@
     "build": "electron-packager . ElectroForest --platform=darwin --arch=x64 --electron-version=1.8.2",
     "build-all": "electron-packer . ElectroForest --all --electron-version=1.8.2"
   },
-  "devDependencies": {
-    "electron": "^1.8.2",
-    "electron-packager": "^11.1.0"
+  "devDependencies": {},
+  "dependencies": {
+    "electron": "^10.1.2",
+    "electron-packager": "^15.1.0"
   }
 }
